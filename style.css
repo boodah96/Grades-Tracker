@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('school.jpg');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    position: relative;
+
+}
+
+header{
+height: 100px;
+width: 100%;
+position: relative;
+font-family: 'Roboto', sans-serif;
+background-color: black;
+
+}
+header h2 {
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    left: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+main{
+    position: relative;
+}
+#formDiv{
+    width: 10%;
+    background-color: rgb(187, 130, 240);
+    opacity: .7;
+    position: absolute;
+    top: 100px;
+    left: 5%;
+
+
+
+
+}
+
+table{
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+th{
+    background-color: black;
+    border: 2px solid white;
+    color:white ;
+
+}
